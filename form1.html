@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input type="text" placeholder="Nombre Completo" name="full_name">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div>
+                ¿Cúal es tu color favorito?
+                <input name="color" type="radio" value="rojo"> Red
+                <input name="color" type="radio" value="verder"> Verde
+                <input name="color" type="radio" value="azul"> Azul
+                <input name="color" type="radio" value="otro"> Otro
+            </div>
+            <div>
+                <input list="paises" placeholder="pais" name="list">
+                <datalist id="paises">
+                    <option value="albania">
+                    <option value="mexico">
+                    <option value="algo">
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
